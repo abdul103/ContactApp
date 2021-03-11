@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+
+<style>
+
+body{background-color:azure;}
+a{font-size:200% ; background-color:bisque ;text-align:center; }
+</style>
+</head>
+<body>
+<h1 style="text-align: center" >Welcome in the contact management system</h1>
+
+<br><br><br>
+<a href ="AddNewContact.html">Add new Contact</a>
+
+<a href ="ProfileServlet" style="float: right;">Profile</a>
+
+
+<br><br><br>
+
+<a href="FetchAllServlet" >Show All Contact</a><br><br><br>
+
+<a href="Search.html" >Search Contact</a><br><br><br>
+
+<a href="Delete.html" >Delete Contact</a>
+
+<form action="DeleteAccountServlet" method="post" style="float:right">
+<input type="submit" value="Delete Your Account"  style="background-color:red;size:120% " >
+</form>
+<br><br><br>
+<fieldset style= "display: block;">
+<legend>Update Contact</legend>
+<form action="UpdateServlet" method="post">
+
+<br>
+<input type="text" name="name" placeholder="Enter the name">
+<input type="text" name="number" placeholder="Enter new contact Number">
+<input type="submit" value="update">
+<br><br>
+
+</form>
+</fieldset>
+</body>
+</html>

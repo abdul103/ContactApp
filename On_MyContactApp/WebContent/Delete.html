@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{background-color:plum; text-align:center}
+</style>
+</head>
+<body>
+
+<br><br><br><br>
+<br><br>
+
+<fieldset style= "display: block;">
+<legend>Delete Your Contact</legend>
+<form action="DeleteServlet" method="post">
+
+<h1>Delete Contacts</h1>
+<label>First Name:</label>&nbsp;&nbsp;<input type="text" name="fname" placeholder="Enter The First Name ">
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<input type="submit" value="Delete By Name">
+</form>
+<br>
+<br>
+<br>
+
+
+<form action="DeleteByNumberServlet" method="post">
+
+<label>Contact Number:</label>&nbsp;&nbsp;<input type="text" name="number" placeholder="Enter Contact Number ">
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<input type="submit" value="Delete By Number">
+</form>
+</fieldset>
+
+</body>
+</html>

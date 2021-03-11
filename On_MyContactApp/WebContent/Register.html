@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{background-color:lightgrey; text-align:center}
+</style>
+</head>
+<body>
+
+<h1>This is the Register HTML</h1>
+<h3>Please enter your details below</h3>
+
+<form action="RegisterServlet" method="post">
+<fieldset style= "display: block;">
+<legend>Register form</legend>
+<label>Your Name: </label>&nbsp;&nbsp;<input type ="text" name="name" placeholder="Enter Your Name"><br><br>
+
+<label>Contact Number: </label><input type="number" name="number" placeholder="Enter Mobile Number"><br><br>
+
+<label>UserName :</label>&nbsp;&nbsp;<input type="text" name ="username" placeholder="Please enter user name" ><br><br>
+<label>Generate Password: </label>&nbsp;&nbsp;<input type="password" name ="password" placeholder="Please enter pass word" ><br><br>
+<label>Confirm Password: </label>&nbsp;&nbsp;<input type="password" name ="conpassword" placeholder="Please enter pass word" ><br><br>
+
+<input type="submit" value="Click to register">
+</fieldset>
+</form>
+
+</body>
+</html>

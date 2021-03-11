@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+body{background-color:springgreen}
+form{text-align:center}
+
+</style>
+</head>
+<body >
+<h1>Add New Contact</h1>
+
+<form action="AddNewContactServlet" method="post">
+<h3 style="color:red">*Fill All The Field</h3>
+<label>First Name:</label>&nbsp;&nbsp;<input type="text" name="fname" placeholder="Enter The First Name "><br><br>
+<label>Last Name:</label>&nbsp;&nbsp;<input type="text" name="lname" placeholder="Enter The Last Name "><br><br>
+<label>Contact Number:</label>&nbsp;&nbsp;<input type="number" name ="number" placeholder="Enter The Contact Number"><br><br>
+<label>Name Of Sim</label>&nbsp;&nbsp;
+
+<select name="sim">
+<option value="Airtel">Airtel</option>
+<option value="JioIndia">JioIndia</option>
+<option value="Idea">Idea</option>
+<option value="VodaPhone">VodaPhone</option>
+<option value="Bsnl">BSNL</option>
+<option value="Docomo">Docomo</option>
+<option value="Other">Other</option>
+</select><br><br>
+
+<input type="submit" value="Click to add">
+</form>
+</body>
+</html>

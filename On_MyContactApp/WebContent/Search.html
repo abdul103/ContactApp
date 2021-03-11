@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+body{background-color:seashell; text-align:center}
+</style>
+</head>
+</head>
+<body>
+
+<br><br><br><br>
+<br><br>
+
+<fieldset style= "display: block;">
+<legend>Search Your Contact</legend>
+<form action="SearchServlet" method="post">
+
+
+<h1>Search Contacts</h1>
+<label>First Name:</label>&nbsp;&nbsp;<input type="text" name="fname" placeholder="Enter The First Name ">
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<input type="submit" value="Search By Name">
+</form>
+<br>
+<br>
+<br>
+
+
+<form action="SearchByNumberServlet" method="post">
+
+<label>Contact Number:</label>&nbsp;&nbsp;<input type="text" name="number" placeholder="Enter Contact Number ">
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<input type="submit" value="Search By Number">
+</form>
+</fieldset>
+</body>
+</html>
