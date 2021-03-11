@@ -16,6 +16,7 @@ public class NewContactBean {
 		this.lname = lname;
 		this.number = number;
 		this.sim = sim;
+		// abdul
 	}
 	public String getFname() {
 		return fname;
